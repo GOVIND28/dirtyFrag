@@ -1,9 +1,5 @@
 # Dirty Frag: Universal Linux LPE
 
-<p align="center">
-  <img src="assets/tux.png" width="400" alt="tux">
-</p>
-
 # Abstract
 
 ![tux](assets/demo.gif)
@@ -12,7 +8,6 @@ This document describes the Dirty Frag vulnerability class, first discovered and
 
 Dirty Frag is a case that extends the bug class to which [Dirty Pipe](https://dirtypipe.cm4all.com/) and [Copy Fail](https://copy.fail/) belong. Because it is a deterministic logic bug that does not depend on a timing window, no race condition is required, the kernel does not panic when the exploit fails, and the success rate is very high.
 
-For detailed technical information and the timeline, [see here](assets/write-up.md).
 
 Because the embargo has currently been broken, no patch or CVE exists. After consultation with the maintainers on linux-distros@vs.openwall.org and at their request, this Dirty Frag document is being published. For the disclosure timeline, refer to the technical details.
 
